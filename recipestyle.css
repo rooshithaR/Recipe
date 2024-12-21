@@ -5,7 +5,7 @@
 body{
     font-family: Arial, sans-serif;  
     background-color: hsl(30, 54%, 90%);
-  }
+  margin:0;}
 
 h2{
     
@@ -45,7 +45,10 @@ p{
     
     border-radius: 20px;
 }
+
 .instructions{
+    margin-left: 20px;
+    padding-left: 10px;
     padding-top: 20px;
     border-top:  1px solid hsl(30, 10%, 34%);
 }
@@ -75,3 +78,24 @@ p{
 }
 .nutrition-table tr:last-child {
     border-bottom: none;}
+    ol {
+        list-style-position: outside;
+        margin-left: 0; 
+        padding-left: 40px; 
+      }
+      
+      
+      ol li {
+        margin-bottom: 2px; 
+        text-indent: 0; 
+        padding-left: 0; 
+        line-height: 1.6;
+        position: relative;
+      }
+      
+      
+      ol li strong {
+        font-weight: bold;
+        display: block; 
+        margin-bottom: 1px; 
+      }
