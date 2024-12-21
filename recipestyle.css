@@ -78,24 +78,17 @@ p{
 }
 .nutrition-table tr:last-child {
     border-bottom: none;}
-    ol {
-        list-style-position: outside;
-        margin-left: 0; 
-        padding-left: 40px; 
-      }
-      
-      
-      ol li {
-        margin-bottom: 2px; 
-        text-indent: 0; 
+
+    .instructions ol {
+        list-style-position: inside; 
+        margin: 0; 
+        padding-left: 10px; 
+        line-height: 1.8; 
+    }
+    
+    .instructions li {
+        margin-bottom: 15px; 
+        position: relative; 
         padding-left: 0; 
-        line-height: 1.6;
-        position: relative;
-      }
-      
-      
-      ol li strong {
-        font-weight: bold;
-        display: block; 
-        margin-bottom: 1px; 
-      }
+    }
+ 
